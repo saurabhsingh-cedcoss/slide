@@ -1,0 +1,336 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-family: 'Lateef', cursive;
+    
+
+}
+
+
+/* /////////////////////////////navbar/////////////////////////////////////// */
+
+
+.brand{
+   color: deeppink;
+     margin-left:10%; 
+}
+.img{
+    background-image: url('https://source.unsplash.com/1500x600/?black,night');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+}
+.navbutton{
+    color: black;
+     font-size: large;
+}
+
+.title{
+    padding-top: 250px;
+  
+}
+.title h1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: deeppink;
+}
+.title h4{
+    color: gainsboro;
+}
+
+.contain {
+    width: 100vw;
+    overflow: hidden;
+    margin-top: 10vh;
+}
+
+.block1 {
+    width: 8000px;
+    display: block;
+}
+
+.block {
+    width: 100vw;
+    height: 80vh;
+    float: left;
+}
+
+#btn {
+    position: absolute;
+    left: 50%;
+    font-size: 4vh;
+    color: rgb(3, 3, 3);
+}
+
+.right {
+    position: absolute;
+    top: 50vh;
+    left: 85vw;
+    color: white;
+}
+
+.left {
+    position: absolute;
+    top: 50vh;
+    left: 10vw;
+    color: white;
+
+}
+.rd
+{
+    position: absolute;
+    margin-top:-5%;
+    margin-left: 50%;
+}
+
+/* ////////////////////////////////////////////////////////////about////////////////////////////////////////////////////// */
+
+
+
+.about{
+    height: 100%;
+   
+}
+.about h1{
+    color: deeppink;
+    font-weight: bold;
+
+}
+
+
+.about button{
+    border-radius: 23px;
+    font-weight: bold;
+   color:whitesmoke; 
+   background-color: deeppink;
+   width: 8rem;
+
+}
+.aboutimageedit{
+    float: right;
+    height: 400px;
+    width: 90%;
+}
+.aboutimage{
+    background-image: url('https://source.unsplash.com/400x400/?technology');
+    border-radius: 60px 200px 150px 60px;
+    height: 400px;
+   z-index: -1;
+    position:relative;
+}
+
+.pink{
+    border-radius: 0px 114px 87px 65px;
+width: 100%;
+border:5px solid deeppink;
+height: 319px;
+z-index: 10;
+position: absolute;
+background:none;
+}
+
+
+/* ////////////////////////////////////////////////////////////feature////////////////////////////////////////////////////// */
+
+
+
+.features{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+.icons{
+    margin: 80px 0px !important;
+}
+.features h1{
+    color: deeppink;
+    font-weight: bold;
+}
+.features h2{
+    padding: 10px;
+}
+.icon{
+    color: deeppink;
+    font-weight: bold;
+}
+
+
+/* ////////////////////////////////////////////////////////////list////////////////////////////////////////////////////// */
+
+
+
+.list h1{
+    color: deeppink;
+    font-weight: bold;
+}
+.list h3{
+    font-weight: bold;
+}
+.listimage{
+    background-image:url('https://source.unsplash.com/random/100*100');
+    border-radius: 98px 279px 236px 74px;
+    z-index: -1;
+    position: relative;
+    background-position: left;
+    height: 400px;
+    
+}
+.listimageedit{
+       float: left;
+       width: 90%;
+        height: 400px;
+     margin-bottom: 20px;
+}
+.pink1{
+      border-radius: 52px 242px 426px 101px;
+width: 100%;
+border:5px solid deeppink;
+height: 319px;
+z-index: 10;
+position: absolute;
+
+background:none;
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////review////////////////////////////////////////////////////// */
+
+
+.review{
+    height: 900px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+.review h1{
+    font-weight: bold;
+   
+}
+
+
+/* ////////////////////////////////////////////////////////////dashboard////////////////////////////////////////////////////// */
+
+
+.dash h1{
+    font-weight: bold;
+    color: deeppink;
+}
+.dash p{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/* /////////////////////////////////////////////////////////////gradient///////////////////////////////////////////////////// */
+
+
+
+.imggrad{
+    background-image: url('https://source.unsplash.com/1500x100/?white');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 190px;
+}
+.imggrad h1{
+    color:black;
+}
+
+
+/* //////////////////////////////////////////////////////////form///////////////////////////////////////////////////////////// */
+
+
+
+.imgform{
+    background-image: url('https://source.unsplash.com/1500x700/?black,dark');
+    background-size: 100% 100%;
+    background-attachment: cover;
+    width: 100%;
+    height: 990px;
+}
+.imgform h1{
+    font-weight: bold;
+    color: ghostwhite;
+
+}
+
+.imgform p{
+    font-weight: bold;
+    color: ghostwhite;
+    
+}
+
+/* /////////////////////////////////////////////////////responsive//////////////////////////////////////////////////////// */
+
+
+
+@media(min-width:768px) and (max-width:991px) {
+    .about{
+        height: 900px;
+    }
+    .review{
+        height: 600px;
+       
+    }
+    .features{
+       
+        height: 530px;
+    }  
+   
+}
+
+@media(min-width: 575px) and (max-width:767px)  {
+    .about{
+        height: 900px;
+    }
+    .review{
+        height: 700px;
+       
+    }
+   
+    
+}
+
+@media(min-width: 480px) and (max-width:574px)  {
+    .about{
+        height: 900px;
+    }
+    .features{
+       
+        height: 1030px;
+    }   
+    .review{
+        height: 2100px;
+       
+    }
+    
+}
+@media(max-width:479px)  {
+
+
+  
+    .title h1{
+        font-size: 23px;
+        font-weight: bold;
+    }
+    
+    .title button{
+    
+        margin-right: 10%;
+    }
+
+    .about{
+        height: 900px;
+    }
+    .features{
+        height: 1130px;
+    }
+    .review{
+        height: 1900px;
+       
+    }
+   
+}
