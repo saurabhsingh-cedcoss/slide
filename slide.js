@@ -36,7 +36,7 @@ $(document).ready(function () {
                 $('.block1').css('marginLeft','0');
                 c=1;
             }
-        }, 2000);
+        }, 3000);
 
         
    
